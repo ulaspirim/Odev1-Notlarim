@@ -1,0 +1,40 @@
+ls - listeler
+pwd - bulunulan yeri yazar 
+cd " " - klasöre girer
+cd .. - üst klasöre girer
+clear - komutları temizler
+mkdir - klasör oluşturur
+touch not.txt - not.txt dosyası oluşturur
+ls -la   -  Gizli klasörleri de gösterir.
+
+rm not.txt - not.txt'yi siler
+rm -rf KlasörAdı - klasörü siler
+
+Commmit - Adımları kaydetmek olarak düşünebiliriz.
+
+Branch - Dallanmadır. Aynı projede farklı dallarda 2 kişinin çalışması diyebiliriz.
+
+git status - güncel git durumunu gösterir. Yani git ile bir bağlantı olup olmadığını gösterir.
+
+git init - git'i başlatmış oluyor. 2 defa çalıştırılmamalı, status kontrol edilmeli.
+
+repository - Tüm klasör bizim repomuzdur. 
+
+git add - Dosyayı Git'e ekler.
+
+touch deneme.txt - deneme text dosyası oluşturur.
+
+Untracked files - Git içinde olmayan dosyalardır.
+
+git commit -m "asd"  - Dosyada Git commit mesajı oluşturur.
+
+git log - geçerli dosyaların sürüm geçmişini listelemek için kullanılır.
+
+git commit -a   - Git add yerine kullanılabilir ve her şeyi add yapabilirsiniz dedi.
+
+git add .   - 100'lerce dosyayı tek tek eklemek yerine bu komut tüm dosyaları ekliyor.
+
+git log - Log bilgilerini gösterir.
+
+Bir dosyanın locale yüklenmemesi için klasör içinde ".gitignore" klasörü açılmalıdır.
+touch .gitignore  - Bu klasör içerisine girilecek dosya isimleri gizli kalacaktır.
