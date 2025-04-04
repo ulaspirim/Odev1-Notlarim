@@ -10,6 +10,11 @@ ls -la   -  Gizli klasörleri de gösterir.
 rm not.txt - not.txt'yi siler
 rm -rf KlasörAdı - klasörü siler
 
+git config --global user.name "Ulaş Pirim"
+
+git config --global user.email "ulpir53@gmail.com"
+
+
 Commmit - Adımları kaydetmek olarak düşünebiliriz.
 
 Branch - Dallanmadır. Aynı projede farklı dallarda 2 kişinin çalışması diyebiliriz.
@@ -38,3 +43,17 @@ git log - Log bilgilerini gösterir.
 
 Bir dosyanın locale yüklenmemesi için klasör içinde ".gitignore" klasörü açılmalıdır.
 touch .gitignore  - Bu klasör içerisine girilecek dosya isimleri gizli kalacaktır.
+
+get remote add origin - uzak dosyamızın hangi link olacağını belirliyoruz.
+
+get push -u origin main - her seferinde url vermek yerine adını origin yaptığımız için oraya push edebiliyoruz.
+
+
+
+
+
+
+
+
+
+
