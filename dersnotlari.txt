@@ -48,8 +48,23 @@ get remote add origin - uzak dosyamızın hangi link olacağını belirliyoruz.
 
 get push -u origin main - her seferinde url vermek yerine adını origin yaptığımız için oraya push edebiliyoruz.
 
+git branch - 
+
+git switch feat -
+
+git remote - 
 
 
+
+Bir şey deneyecekken kendi ana dosyamızı bozmamak için veya başkasıyla çalışırken branch kullanırız.
+
+git branch aaaa - branch oluşturur. Her branch içinde commit atılabilir.
+
+git switch master - master'a geri dönüyor. 
+
+git merge aaaa - aaaa ile master bitince, ikisini birleştiriyor yani master altında birleşiyor.
+
+git branch - güncel branchleri gösterir.
 
 
 
