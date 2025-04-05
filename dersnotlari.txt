@@ -48,8 +48,6 @@ get remote add origin - uzak dosyamızın hangi link olacağını belirliyoruz.
 
 get push -u origin main - her seferinde url vermek yerine adını origin yaptığımız için oraya push edebiliyoruz.
 
-git branch - 
-
 git switch feat -
 
 git remote - 
