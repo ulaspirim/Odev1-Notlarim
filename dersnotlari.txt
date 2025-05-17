@@ -89,3 +89,24 @@ git stash list - Güncel olarak sakladığımız verileri gösterir.
 git stash apply - Seçilen stash uygulanır. Mesela 3 tane stash oluşturduğumuzda listeden stash adına bakarak o stashi geri getirebiliriz.
 
 git stash clear - tüm saklananları siler
+
+
+git checkout <commitID> - Head (master değil), id'si yazılan kısma gider. Branch ise en son commitlendiği yerde kalır. Head'in bulunduğu commit id'de yeni bir branch açabiliriz.
+
+git reset <commitID> - commitID yazılan yere girilen commitin ID'sinin olduğu yerde dosyaları değiştirmeden commitler siler.
+
+git reset --hard <commitID> - commitID yazılan yere gider ve önceden hangi durumdaysa o duruma geçer. Committen sonraki dosya içerikleri silinir.
+
+git revert <commitID> - commitID yazılan yere gider ve görünürde committen sonraki içerikler silinmiş gibidir fakat commitler silinmez. Eski commite gider fakat yeni commit oluşturur. Risk almaya gerek kalmamış olur.
+
+git diff - belirli alanlar (commitler, branchler) arasındaki farkları gösterir. Aynı dosyanın önceki ve sonraki versiyonları arasındakini kapsar.
+
+git diff <commitID A> <commitID B> - commitA ve commitB commitleri arasındaki farkları gösterir.
+
+git diff <branch A> <branch B> - A ve B branchleri arasındaki farkları gösterir.
+
+
+git rebase - merge yaparken master ve ikinci branch arasında merge commit yapmak yerine hizalama ve sıraya sokma maksatıyla rebase kullanılır (git rebase master). Ve ilk başta masterlar sonra branchler koyulur.
+Asla kullanmamız gereken durum ise,	başka kişilere paylaşım yaptığımız commitlerin olmamasıdır. Başkalarının değil sadece bizim çalıştığımız commitlerde sağlıklı çalışır.
+
+
