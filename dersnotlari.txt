@@ -44,14 +44,6 @@ git log - Log bilgilerini gösterir.
 Bir dosyanın locale yüklenmemesi için klasör içinde ".gitignore" klasörü açılmalıdır.
 touch .gitignore  - Bu klasör içerisine girilecek dosya isimleri gizli kalacaktır.
 
-get remote add origin - uzak dosyamızın hangi link olacağını belirliyoruz.
-
-get push -u origin main - her seferinde url vermek yerine adını origin yaptığımız için oraya push edebiliyoruz.
-
-git switch feat -
-
-git remote - 
-
 
 
 Bir şey deneyecekken kendi ana dosyamızı bozmamak için veya başkasıyla çalışırken branch kullanırız.
@@ -110,3 +102,29 @@ git rebase - merge yaparken master ve ikinci branch arasında merge commit yapma
 Asla kullanmamız gereken durum ise,	başka kişilere paylaşım yaptığımız commitlerin olmamasıdır. Başkalarının değil sadece bizim çalıştığımız commitlerde sağlıklı çalışır.
 
 
+GitHub kısmı
+
+get remote add origin - uzak dosyamızın hangi link olacağını belirliyoruz.
+
+get push -u origin main - her seferinde url vermek yerine adını origin yaptığımız için oraya push edebiliyoruz.
+
+git switch feat -
+
+git remote - 
+
+
+Compare & Pull request - GitHub üzerinde branchleri birleştirmemizi sağlar. Eğer hata yoksa birleştirmede sorun yok anlamına gelir.
+
+git branc -r  - remote'taki branchleri görüntüler
+
+git fetch origin master  - origin'deki masteri getirir.
+
+get checkout origin/master  - origindeki mastera switch etmek için checkout kullanılır
+
+git pull origin master - GitHub'taki masterda yapılan değişiklikleri alır ve ana masterimiz ile merge eder.
+
+git clone <GitHub Clone Linki> - Verilen adresteki repoyu bilgisayara klonlamaya yarar
+
+Başkasının hesabından clone ile repo indirirsek ve düzenleme yaptığımızda pushlama işlemi hata verir. Bu yüzden fork kullanılıp clone yapılır. 
+
+Fork çatallama anlamına geliyor. Eğer başkasının reposunda fork dersek bu reponun aynısını kendi hesabımıza kopyalar.
