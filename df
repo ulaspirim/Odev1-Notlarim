@@ -1,0 +1,54 @@
+[33mcommit 86480697e936ab3988057eae953fe62a5d345bf8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Merge: 9c37b25 a73874b
+Author: Ulaş Pirim <ulpir53@gmail.com>
+Date:   Sat Apr 5 16:35:51 2025 +0300
+
+    Merge branch 'yeniBranch'
+
+[33mcommit 9c37b258af26791893ad265009f5da69a4d8fc6f[m
+Author: Ulaş Pirim <ulpir53@gmail.com>
+Date:   Sat Apr 5 16:35:38 2025 +0300
+
+    Branch sonrası ana yerden tekrar kayıt alınıyor
+
+[33mcommit a73874b44ca52eedf3fede0a3276e8724446dbe6[m[33m ([m[1;32myeniBranch[m[33m)[m
+Author: Ulaş Pirim <ulpir53@gmail.com>
+Date:   Sat Apr 5 16:34:32 2025 +0300
+
+    Yeni Branche Yeni dosya eklendi
+
+[33mcommit 0dce70fee9630aa6f525ee45293af394c4759dfe[m
+Author: Ulaş Pirim <ulpir53@gmail.com>
+Date:   Sat Apr 5 16:33:03 2025 +0300
+
+    5 Nisan kaydı alındı
+
+[33mcommit 933b5a3e2cb337ec3bd0e525ac68ae5a8663fdc4[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Ulaş Pirim <ulpir53@gmail.com>
+Date:   Fri Apr 4 15:27:01 2025 +0300
+
+    Düzenleme yapıldı
+
+[33mcommit f74be9d218907d36adf0b3e6e5c2bc672fa4df69[m
+Author: Ulas Pirim <ulaspirim@gmail.com>
+Date:   Fri Apr 4 13:13:27 2025 +0300
+
+    Dosyada değişiklik yapıldı
+
+[33mcommit 215b41ab42fcdcbdee9bef9f6d38b0eb6f2c70fe[m
+Author: Ulas Pirim <ulaspirim@gmail.com>
+Date:   Fri Apr 4 12:40:31 2025 +0300
+
+    Ders notları dosyası oluşturuldu
+
+[33mcommit d985ea8a1e890ff8afe9fd8b6b241ee21468c7e3[m
+Author: Ulas Pirim <ulaspirim@gmail.com>
+Date:   Fri Apr 4 12:38:05 2025 +0300
+
+    gitignore dosyası oluşturuldu
+
+[33mcommit 1785dd7bef19281801833252f4dd299a7ce04dd6[m
+Author: Ulas Pirim <ulaspirim@gmail.com>
+Date:   Fri Apr 4 12:26:46 2025 +0300
+
+    İlk kodumuz

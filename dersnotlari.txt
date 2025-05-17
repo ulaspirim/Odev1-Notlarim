@@ -67,6 +67,25 @@ git branch - güncel branchleri gösterir.
 
 
 
+Fast forwarding terimi - Master'da bir şey yapmayıp feat'te yapsaydık bu anlama gelirdi.
+
+Eğer masterda ve branch'tekiler çakışırsa (dosya isimlerinin değişmesi vs) "Automatic merge failed" yazısı gelip bizi uyarıyor ve birleştirme yapamıyor.
+
+Eğer master ve branch'te dosya içeriği vs silersek zaten bizi uyaracak ve emin misin gibisinden bize not gelecek
 
 
+Eğer branch'te değişiklik yaparsak ve commit etmeden mastera geçersek branchte yaptığımız değişiklikler otomatik mastera geçmiş olacak (halbuki merge etmemiştik). Bu durumu çözmek için restore komutunu kullanırsak hem master hem de branchteki doya eski haline döner. Yani branchte yaptığımız değişiklikler de gitmiş oluyor. Bu durum için ya commit edilmeli ya da stash yapılmalıdır.
 
+git restore dosyaadi - En sonki committe dosya nasılsa onu geri getirir.
+
+stash - saklamak demektir. Commit etmeye hazır değilken branchte yapılan değişiklikler için işe yarıyor. Mülakatta bile karşımıza çıkabilirmiş.
+
+git stash - üstte bahsettiğimiz durum için kullanılır. 
+
+git stash pop - Sakladığı verileri dışarı atar. Yani geri getirir. 
+
+git stash list - Güncel olarak sakladığımız verileri gösterir.
+
+git stash apply - Seçilen stash uygulanır. Mesela 3 tane stash oluşturduğumuzda listeden stash adına bakarak o stashi geri getirebiliriz.
+
+git stash clear - tüm saklananları siler
